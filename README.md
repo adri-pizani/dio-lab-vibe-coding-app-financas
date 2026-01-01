@@ -1,4 +1,4 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App Acessível de Finanças Pessoais da Adriana Pizani com Vibe Coding
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
@@ -73,13 +73,101 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
+- Seu **prompt final** (PRD):
+
+```txt
+PRD – Aplicativo de Organização de Finanças por Conversa
+--------------------------------------------------------
+
+1. Contexto
+O aplicativo tem como objetivo ajudar pessoas a organizarem suas finanças pessoais de forma simples, natural e sem fricção. Toda a experiência é baseada em conversas em linguagem natural, evitando formulários complexos e tornando o processo mais acessível para iniciantes.
+
+A solução deve seguir princípios de Design Universal, garantindo que o maior número possível de pessoas, com diferentes níveis de habilidade, experiência digital ou necessidades específicas, consiga usar o app com conforto, clareza e autonomia.
+
+2. Problema
+A maioria dos aplicativos financeiros exige muita entrada manual, categorização repetitiva e pouca personalização. Isso afasta usuários iniciantes ou pessoas que têm dificuldades com interfaces tradicionais.
+
+O app busca resolver isso oferecendo:
+- Registro de gastos por chat
+- Classificação automática
+- Recomendações personalizadas
+- Experiência mais humana
+- Acessibilidade e usabilidade ampliadas para todos os perfis
+
+3. Público-Alvo
+Pessoas que desejam começar a organizar suas finanças de forma prática e intuitiva, incluindo:
+- Iniciantes em controle financeiro
+- Usuários com pouca familiaridade com tecnologia
+- Pessoas que preferem interações conversacionais
+- Pessoas que se beneficiam de interfaces mais acessíveis e inclusivas
+
+4. Funcionalidades-Chave
+1. Registro de gastos via chat em linguagem natural.
+2. Classificação automática de transações.
+3. Definição e acompanhamento de metas financeiras.
+4. Agente Financeiro com dicas e insights.
+5. Relatórios simples e personalizados.
+6. Design Universal aplicado em toda a experiência, incluindo:
+   - Linguagem clara
+   - Navegação simples
+   - Contrastes adequados
+   - Compatibilidade com leitores de tela
+   - Fluxos que não dependem exclusivamente de visão, audição ou precisão motora
+   - Ajustes de ritmo, tamanho de fonte e estilo de interação
+
+5. Entregável da IA
+A IA deve gerar um plano de MVP contendo:
+
+a) Principais telas
+- Tela de Conversa
+- Dashboard simples
+- Tela de Metas
+- Tela de Relatórios
+- Configurações (incluindo opções de acessibilidade)
+
+b) Recursos necessários
+- Motor de NLP
+- Classificador automático
+- Banco de dados de transações
+- Módulo de metas e alertas
+- Módulo de recomendações do Agente Financeiro
+- Visualizações simples
+- Diretrizes de Design Universal aplicadas desde o início
+
+c) Esboço de validação inicial
+- Testes com usuários iniciantes
+- Testes com pessoas com diferentes necessidades de acessibilidade
+- Avaliação de clareza, fluidez e autonomia
+- Ajustes baseados em feedback real
+```
+
+- Prints ou pequenos vídeos das interações com a IA:
+
+Interação (1)
+> Olá, Lovable! Crie um app de Finanças Pessoais com base no seguinte PRD (Product Requirements Document)
+
+Interação (2):
+> Quando acessei o App, já haviam dados de 2024 e eles estão interferindo no controle. Poderia exibir um modelo sem dados anteriores? Além disso, não achei o Design Universal. Poderia tornar mais fácil e intuitivo?
+
+Interação (3):
+> Quando acessei o App, já haviam dados de 2024 e eles estão interferindo no controle. Poderia exibir um modelo sem dados anteriores? Além disso, não achei o Design Universal. Poderia tornar mais fácil e intuitivo?
+
+<img width="1313" height="836" alt="image" src="https://github.com/user-attachments/assets/1c14df77-36fb-4ef2-81b4-3af1b78a01bc" />
+
+
+- Um resumo do que o seu **App de Finanças Pessoais** faz;
+O aplicativo organiza as informações com base nas informações obtidas na conversa com o usuário
+
+  
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+  - O que funcionou bem?
+Ainda não consegui identificar algo que tenha funcionado bem. Me senti bem frustrada.
+    
+  - O que não funcionou como o esperado?
+ Na primeira versão, o sistema alucinou com informações falsas que interferiram nos dados de teste. Na segunda vez, nasda do que eu colocava migrava para as demais telas.
+    
   - O que aprendeu sobre conversar com IAs?
+    Que Vibe Coding é mais difícil do que parece. Estou acostumada a usar IA para escrita, mas não consegui criar o app de finanças.
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
